@@ -3,9 +3,13 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  return document.querySelector("#nested .target");
+  return document.querySelector('#nested .target');
 }
 
 function increaseRankBy(n) {
-  let list = document.querySelector
+  let list = document.querySelectorAll('.ranked-lists');
+  
+  for (let i = 0; i < list.length; i++) {
+    
+  }
 }
